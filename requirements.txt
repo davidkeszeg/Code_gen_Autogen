@@ -1,0 +1,44 @@
+# Core AutoGen dependencies
+autogen>=0.2.0
+openai>=1.0.0
+anthropic>=0.3.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Async support
+aiohttp>=3.9.0
+asyncio>=3.4.3
+
+# Security and validation
+cryptography>=41.0.0
+python-jose[cryptography]>=3.3.0
+
+# State machine
+python-statemachine>=2.1.0
+
+# Monitoring and logging
+prometheus-client>=0.19.0
+structlog>=23.2.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.12.0
+pytest-cov>=4.1.0
+
+# Code execution sandboxing
+docker>=7.0.0
+
+# API framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Database
+redis>=5.0.0
+asyncpg>=0.29.0
+
+# Utilities
+pyyaml>=6.0
