@@ -10,14 +10,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="autogen-enterprise",
+    name="codegen-autogen-davidkeszeg",  # Egyedi név a projektnek
     version="1.0.0",
-    author="Enterprise Development Team",
-    author_email="dev@enterprise.com",
+    author="davidkeszeg",  # A te neved
+    author_email="csdavid931017@gmail.com",  # A te e-mail címed
     description="Professional AutoGen-based code generation system with multi-agent architecture",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/enterprise/autogen-enterprise",
+    url="https://github.com/davidkeszeg/Code_gen_Autogen", # A te GitHub repód URL-je
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
